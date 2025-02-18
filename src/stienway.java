@@ -12,7 +12,7 @@ public class stienway {
     }
 
     public static void pressSustain(){
-        System.out.println("sustain is pressed , so`und is on hold");
+        System.out.println("sustain is pressed , so it is on hold......");
     }
 
 
