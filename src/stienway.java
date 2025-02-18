@@ -1,9 +1,20 @@
 public class stienway {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        System.out.println("another commit");
 
+    public static String color;
+    public static String model;
+    public static String tuning;
+
+    public static void initialOpening() {
         System.out.println("--------------------------------------------");
-        System.out.println("now i understand the commit in the 3rd try");
+        System.out.println("Hello, World!");
+        System.out.println("welcome to the Stienway piano class file");
+        System.out.println("--------------------------------------------");
     }
+
+    public static void pressSustain(){
+        System.out.println("sustain is pressed , so`und is on hold");
+    }
+
+
+
 }
