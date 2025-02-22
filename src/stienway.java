@@ -4,36 +4,42 @@ class stienway {
     public  String model;
     public  String tuning;
     private String productionkey;
+    //bringin a new object as variable
+    AlaskanWood woodType ;
+
+    AlaskanWood birch = new AlaskanWood("Alaskan birch wood");
 
     stienway() {
         this.color = "Black";
         this.model = "Standard";
         this.tuning = "440 Hz";
         this.productionkey = "12345";
+        //bringin the object
+        this.woodType=birch;
     }
 
-    stienway(String color, String model,String tuning,String productionkey){
-        this.color = color;
-        this.model= model;
-        this.tuning = tuning;
-        this.productionkey=productionkey;
-    }
 
-    public static void initialOpening() {
-        System.out.println("--------------------------------------------");
+    public  void initialOpening() {
+        System.out.println("---------------------------------------------------------------------");
         System.out.println("Hello, World!");
         System.out.println("welcome to the Stienway piano class file");
-        System.out.println("--------------------------------------------");
+        System.out.println("---------------------------------------------------------------------");
+        System.out.println("this time we will be making a "+ model + " stienway piano" );
+        System.out.println("---------------------------------------------------------------------");
+
     }
 
     public void Showinfo(){
-        System.out.println(color);
-        System.out.println(model);
-        System.out.println(tuning);
-        System.out.println(productionkey);
+    System.out.println("color = "+color);
+        System.out.println("Model = "+model);
+        System.out.println("tuning = "+tuning);
+        System.out.println("productionkey = "+productionkey);
+        //printingusing object
+        birch.showwoodType();
+
     }
 
-    public static void pressSustain(){
+    public void pressSustain(){
         System.out.println("sustain is pressed , so it is on hold......");
     }
 
