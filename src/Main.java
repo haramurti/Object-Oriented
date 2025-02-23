@@ -1,11 +1,11 @@
 public class Main  {
     public static void main(String[] args) {
 
-        AlaskanWood Taiga = new AlaskanWood("Alaskan Taiga wood pine");
+
 
 
         //constructor
-        Model1991 s = new Model1991("brwon","fonzi 1991","Gminor",Taiga);
+        Model1991 s = new Model1991("brwon","fonzi 1991","Gminor");
         s.initialOpening();
         System.out.println();
 
@@ -21,6 +21,11 @@ public class Main  {
         //polymorphism
         s.pressSustain();
 
+        //outer and innder class + inheritance
+        Model1991.stienwayinner stienwayin = s.new stienwayinner();
+        System.out.println();
+        System.out.println("this is inner class");
+        System.out.println(stienwayin.y);
     }
 
 }

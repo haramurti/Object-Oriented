@@ -17,6 +17,10 @@ class stienway {
         //bringin the object
         this.woodType=birch;
     }
+    
+    class stienwayinner{
+        int y = 5;
+    }
 
 
     public  void initialOpening() {

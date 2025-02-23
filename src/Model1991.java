@@ -3,11 +3,11 @@ public class Model1991 extends stienway {
 
 
     //object inhereted to model 1991
-    Model1991(String color, String model,String tuning,AlaskanWood woodType ){
+    Model1991(String color, String model,String tuning ){
         this.color = color;
         this.model= model;
         this.tuning = tuning;
-        this.woodType = woodType;
+
 
     }
 
