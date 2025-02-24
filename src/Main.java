@@ -24,6 +24,7 @@ public class Main  {
         System.out.println(stienwayin.y);
 
         //Abstarction trough inheritißnce
+        System.out.println("  ");
         s.showBahanBenang();
     }
 }
