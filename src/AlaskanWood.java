@@ -1,5 +1,5 @@
 //this alaskan wood have many wood types basicly imported from alaska
-public class AlaskanWood {
+public class AlaskanWood  {
     public String woodType= "normal Oak wood";
 
     AlaskanWood(String woodType){
@@ -8,5 +8,6 @@ public class AlaskanWood {
 
     public void showwoodType(){
         System.out.println("wood type = " +woodType);
+
     }
 }

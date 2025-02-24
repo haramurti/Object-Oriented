@@ -1,9 +1,5 @@
 public class Main  {
     public static void main(String[] args) {
-
-
-
-
         //constructor
         Model1991 s = new Model1991("brwon","fonzi 1991","Gminor");
         s.initialOpening();
@@ -26,6 +22,8 @@ public class Main  {
         System.out.println();
         System.out.println("this is inner class");
         System.out.println(stienwayin.y);
-    }
 
+        //Abstarction trough inheritißnce
+        s.showBahanBenang();
+    }
 }

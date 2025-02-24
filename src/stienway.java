@@ -1,4 +1,4 @@
-class stienway {
+class stienway extends AbstractBahanBenang{
 
     public  String color;
     public  String model;
