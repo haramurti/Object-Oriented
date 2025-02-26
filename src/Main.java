@@ -33,5 +33,9 @@ public class Main  {
         Model1991P p = new Model1991P();
         System.out.println("  ");
         p.performancesoudmode();
+
+        //java enums
+        Key playedkey = Key.SOL;
+        playedkey.playsound(playedkey);
     }
 }
