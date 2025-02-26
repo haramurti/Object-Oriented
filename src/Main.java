@@ -24,7 +24,14 @@ public class Main  {
         System.out.println(stienwayin.y);
 
         //Abstarction trough inheritißnce
+        //git commit trial remote push
         System.out.println("  ");
         s.showBahanBenang();
+
+        //interface
+        //the interface class only have a method without a body , and it is passed using implementt o toher classes
+        Model1991P p = new Model1991P();
+        System.out.println("  ");
+        p.performancesoudmode();
     }
 }
