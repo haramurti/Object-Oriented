@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 public class Main  {
     public static void main(String[] args) {
         //constructor
@@ -35,7 +37,15 @@ public class Main  {
         p.performancesoudmode();
 
         //java enums
+        System.out.println("  ");
         Key playedkey = Key.SOL;
         playedkey.playsound(playedkey);
+
+        //localdate in java
+        System.out.println("  ");
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println(now);
+
+
     }
 }
